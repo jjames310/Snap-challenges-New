@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+if float(choice)==1:
+temp = input("What is the number that you would like to convert? ")
+temp = (float(temp) - 32) * 5 / 9
+print ("Your temperature in Celsius is: %s." %temp)
+break #stops while loop
+elif float(choice)==2:
+temp = input("What is the number that you would like to convert? ")
+temp = float(temp) * 9/5 + 32
+print ("Your temperature in Fahrenheit is: %s." %temp)
+break #stops while loop
+else: #only if what ever is entered is a number and not 1 or 2
+print ("") #linebreak to make it look better
+print ("PLEASE ENTER EITHER 1 OR 2!")
+print ("") #linebreak to make it look better
+#code repeats until either 1 or 2 is entered
+
+</body>
+</html>
